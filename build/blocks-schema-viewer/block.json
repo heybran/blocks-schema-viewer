@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "heybran/blocks-schema-viewer",
+  "version": "0.1.0",
+  "title": "Blocks Schema Viewer",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Display the JSON representation of all blocks on the current page within the Gutenberg editor for debugging and analysis.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "blocks-schema-viewer",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}
