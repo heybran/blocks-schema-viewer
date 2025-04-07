@@ -8,6 +8,9 @@ import { PluginDocumentSettingPanel } from '@wordpress/editor';
 import { registerPlugin } from '@wordpress/plugins';
 import { useState } from '@wordpress/element';
 
+// https://github.com/alenaksu/json-viewer
+import '@alenaksu/json-viewer';
+
 /**
  * Internal dependencies
  */
@@ -30,7 +33,7 @@ if ( document.querySelector( '#editor' ) ) {
 				name="blocks-schema-viewer"
 				className="blocks-schema-viewer"
 				icon="networking"
-				title={ __( 'Blocks Schema Viewer', 'blocks-schema-viewer' ) }
+				title={ __( 'Blocks Schema', 'blocks-schema-viewer' ) }
 			>
 				<Button
 					variant="secondary"
@@ -53,7 +56,7 @@ if ( document.querySelector( '#editor' ) ) {
 						className="blocks-schema-viewer__modal"
 						bodyOpenClassName="blocks-schema-viewer-modal-open"
 					>
-						<pre>{ blocksJSON }</pre>
+						<json-viewer>{ blocksJSON }</json-viewer>
 					</Modal>
 				) }
 			</PluginDocumentSettingPanel>
