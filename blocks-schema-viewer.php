@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Blocks Schema Viewer
  * Description:       Display the JSON representation of all blocks on the current page within the Gutenberg editor for debugging and analysis.
- * Version:           0.2.0
+ * Version:           0.3.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Brandon Zhang
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'BLOCKS_SCHEMA_VIEWER_VERSION', '0.1.0' );
+define( 'BLOCKS_SCHEMA_VIEWER_VERSION', '0.3.0' );
 
 /**
  * Enqueue JavaScript and CSS files for the plugin.

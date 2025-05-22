@@ -10,9 +10,10 @@ This plugin was created to provide developers -- well mostly me, but I hope you 
 
 ![Blocks schema viewer adds a panel inside the editor. It will display the JSON schema of all blocks on the current page in a textarea.](./screenshot-1.jpg)
 
-![Blocks schema viewer also allow users to view the schema inside a modal.](./screenshot-2.jpg)
+![Blocks schema viewer also allow users to view the schema inside a modal, along with expand, collapse and search functionalities.](./screenshot-3.png)
 
 ## Changelog
 
 - 0.1.0 Initial release.
 - 0.2.0 Add `json-viewer` web component.
+- 0.3.0 Add expand, collapse and search functionalities.
