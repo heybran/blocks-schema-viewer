@@ -1,1 +1,1 @@
-.blocks-schema-viewer__modal{width:80vw}.blocks-schema-viewer__textarea{margin-block-start:16px}
+.blocks-schema-viewer__modal{max-height:90dvh!important;max-width:1200px;width:90dvw}.blocks-schema-viewer__modal .components-base-control__field{margin-block-end:0}.blocks-schema-viewer__modal .components-base-control__field input{height:36px!important;max-height:36px!important;min-height:36px!important}.blocks-schema-viewer .components-modal__content{padding-block-end:16px}.blocks-schema-viewer__textarea{margin-block-start:16px}

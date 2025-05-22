@@ -6,7 +6,23 @@
 
 .blocks-schema-viewer {
 	&__modal {
-		width: 80vw;
+		width: 90dvw;
+		max-width: 1200px;
+		max-height: 90dvh !important;
+
+		.components-base-control__field {
+			margin-block-end: 0;
+
+			input {
+				max-height: 36px !important;
+				min-height: 36px !important;
+				height: 36px !important;
+			}
+		}
+	}
+
+	.components-modal__content {
+		padding-block-end: 16px;
 	}
 
 	&__textarea {
